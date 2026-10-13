@@ -1,0 +1,16 @@
+{
+  "comparable_repos": [],
+  "launch_angle": "show a pull request where the action catches a real regression",
+  "one_day_mvp": "10 skills, example prompts, before/after transcripts, and evaluation tasks.; action.yml, sample workflow, failing and passing fixture repos.",
+  "opportunity_score": 67.7,
+  "parent_idea": "Game Design Skills",
+  "promise": "A compact set of agent skills for level critique, economy balancing, quest writing, tuning loops, and playtest synthesis. Packaged as a github action so users can adopt it quickly.",
+  "publish_gate": "must work in a fresh public test repo",
+  "rank": 7,
+  "repo_shape": "GitHub Action",
+  "slug": "game-design-skills-github-action",
+  "theme": "Domain-specific agent skill packs",
+  "title": "Game Design Skills GitHub Action",
+  "validation_query": "game design AI agent skills",
+  "why_now": "Skill repos are hot, but many high-value creative domains are barely seeded."
+}

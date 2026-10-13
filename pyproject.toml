@@ -1,0 +1,12 @@
+[project]
+name = "game-design-skills-github-action"
+version = "0.1.0"
+description = "A compact set of agent skills for level critique, economy balancing, quest writing, tuning loops, and playtest synthesis. Packaged as a github action so users can adopt it quickly."
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[project.scripts]
+game-design-skills-github-action = "game_design_skills_github_action.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

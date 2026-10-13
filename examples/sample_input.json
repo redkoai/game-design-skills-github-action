@@ -1,0 +1,16 @@
+{
+  "description": "A compact set of agent skills for level critique, economy balancing, quest writing, tuning loops, and playtest synthesis. Packaged as a github action so users can adopt it quickly.",
+  "limitations": [
+    "Generated MVP scaffold; it needs domain-specific fixtures before public launch.",
+    "No claim of 10K-star performance is made without launch data."
+  ],
+  "name": "Game Design Skills GitHub Action",
+  "success_metric": "User can run the included command and get a readiness report in under one minute.",
+  "tasks": [
+    {
+      "expected_output": "A clear pass/fail report with actionable gaps.",
+      "goal": "10 skills, example prompts, before/after transcripts, and evaluation tasks.; action.yml, sample workflow, failing and passing fixture repos.",
+      "id": "smoke-test"
+    }
+  ]
+}

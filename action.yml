@@ -1,0 +1,7 @@
+name: Game Design Skills GitHub Action
+description: A compact set of agent skills for level critique, economy balancing, quest writing, tuning loops, and playtest synthesis
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: python ${{ github.action_path }}/src/game_design_skills_github_action/cli.py --input ${{ github.action_path }}/examples/sample_input.json
